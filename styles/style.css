@@ -18,7 +18,7 @@
     text-decoration: none;
     text-emphasis-color: none;
     padding-left: 18px;
-    margin: 0 auto;
+   
     
 }
 
@@ -69,3 +69,32 @@
 }
 
 
+.plant1{
+
+    border: 1px solid blue;
+}
+
+
+.plant{
+    font-weight: bold;
+    font-size: 50px;
+}
+.plant-title{
+    font-weight:bold;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.plants-section{
+    width: 1140px;
+    text-align: center;
+    justify-content: center;
+    margin: auto 150px;
+}
+.plant-description{
+    /* margin: 16px 126px; */
+    
+    /* margin-left: 126px;
+    margin-right: 126px; */
+}
