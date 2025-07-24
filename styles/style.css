@@ -92,9 +92,40 @@
     justify-content: center;
     margin: auto 150px;
 }
-.plant-description{
-    /* margin: 16px 126px; */
+
+.card-title{
+    margin-left: 69px;
+    margin-right: 69px;
+}
+
+    .card-description{
+        margin-left: 94.5px;    
+        margin-right: 94.5px;
+
+    }
+
+    .cart{
+        width:1140PX;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 20px;
+        column-gap: none;   
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 150px;
+    }
+
+
+
+
+
+.button-container{
+
+    width:270px;
+    height: 50px;
+    background-color: #E95A08;
+    color:#FFFFFF;
+    border: none;
     
-    /* margin-left: 126px;
-    margin-right: 126px; */
 }
