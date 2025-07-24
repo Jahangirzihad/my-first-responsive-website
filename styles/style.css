@@ -1,0 +1,30 @@
+.banner-title{
+    width: 517px;
+    font-weight: 800px;
+    font-size: 65px;
+    color: #000000;
+}   
+
+
+.extra{
+    font-weight: 800px;
+    font-size: 65px;
+    color: #E95A08;
+}
+.banner-description{
+    width: 570px;
+    height: auto;
+    font-size: 25px;
+     color: #000000;
+}
+.img-container{
+    width: 570px;
+    margin-top: 87px;
+}
+.banner{
+    width: 1140px;
+    display: flex;
+}
+.banner-container{
+    margin-top: 163px;
+}
