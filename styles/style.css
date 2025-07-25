@@ -591,7 +591,8 @@ color: #FFFFFF;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 30px 150px 100px 150px;
+    margin-left: 150px;
+    margin-right: 150px;
     width: 1140px;
   }
   .nav-items{
@@ -599,6 +600,7 @@ color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center ;
+    
   }
 
   .nav a {
