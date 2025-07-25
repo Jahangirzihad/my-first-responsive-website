@@ -308,7 +308,7 @@ body {
 
 
 .hero {
-  background: url('assets/news-letter-bg.png') no-repeat center center/cover;
+  background: url('../images/news-letter-bg.png') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   align-items: center;
