@@ -1,37 +1,37 @@
-
-
 /* nav-bar section */
-.nav{
-    width: 1140px;
-    display: flex;
-   align-items: center;
-   justify-content: space-between;
-   /* border: 1px solid ; */
-   margin-top: 30px;
-   margin-left: 150px;
-   margin-right: 150px;
-   margin-bottom: 120px;
+.nav {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid ; */
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 120px;
 }
 
-.nav a{
-    width: 415px;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
-    text-emphasis-color: none;
-    padding-left: 18px;
-   
-    
+.nav a {
+  width: 415px;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  text-emphasis-color: none;
+  padding-left: 18px;
+
+
 }
 
-.nav-item1{
-    width: 46px;
-    height: 24px;
-    color: #252432;
+.nav-item1 {
+  width: 46px;
+  height: 24px;
+  color: #252432;
 }
+
 .nav-item2 {
   width: 39px;
-  width: 24px; /* This will override the 39px */
+  width: 24px;
+  /* This will override the 39px */
 }
 
 .cart-icon i {
@@ -42,105 +42,111 @@
   text-decoration: none;
 }
 
-.cart{
+.cart {
   margin-top: 49px;
 }
+
 /* banner section */
-.banner-title{
-    width: 517px;
-    font-weight: 800;
-    font-size: 65px;
-    color: #000000;
-}   
-
-
-.extra{
-    font-weight: 800px;
-    font-size: 65px;
-    color: #E95A08;
-}
-.banner-description{
-    width: 570px;
-    height: auto;
-    font-size: 25px;
-     color: #000000;
-}
-.img-container{
-    width: 570px;
-    margin-top: 87px;
-}
-.banner{
-    width: 1140px;
-    display: flex;
-    margin-left: 200px;
-    margin-right: 70px;
-    margin-top: 221px;
-}
-.banner-container{
-    margin-top: 163px;
+.banner-title {
+  width: 517px;
+  font-weight: 800;
+  font-size: 65px;
+  color: #000000;
 }
 
 
-.plant1{
+.extra {
+  font-weight: 800px;
+  font-size: 65px;
+  color: #E95A08;
+}
 
-    border: 1px solid blue;
+.banner-description {
+  width: 570px;
+  height: auto;
+  font-size: 25px;
+  color: #000000;
+}
+
+.img-container {
+  width: 570px;
+  margin-top: 87px;
+}
+
+.banner {
+  width: 1140px;
+  display: flex;
+  margin-left: 200px;
+  margin-right: 70px;
+  margin-top: 221px;
+}
+
+.banner-container {
+  margin-top: 163px;
 }
 
 
-.plant{
-    font-weight: bold;
-    font-size: 50px;
-}
-.plant-title{
-    font-weight:bold;
-    font-size: 50px;
-    color: #000000;
-    margin-bottom: 16px;
+.plant1 {
+
+  border: 1px solid blue;
 }
 
-.plants-section{
-    width: 1140px;
-    text-align: center;
-    justify-content: center;
-    margin: auto 150px;
-    margin-bottom: 49px;
+
+.plant {
+  font-weight: bold;
+  font-size: 50px;
 }
 
-.card-title{
-    margin-left: 69px;
-    margin-right: 69px;
+.plant-title {
+  font-weight: bold;
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 16px;
 }
 
-    .card-description{
-        margin-left: 94.5px;    
-        margin-right: 94.5px;
+.plants-section {
+  width: 1140px;
+  text-align: center;
+  justify-content: center;
+  margin: auto 150px;
+  margin-bottom: 49px;
+}
 
-    }
+.card-title {
+  margin-left: 69px;
+  margin-right: 69px;
+}
 
-    .cart{
-        width:1140PX;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        row-gap: 20px;
-        column-gap: none;   
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        margin: 0 150px;
-    }
+.card-description {
+  margin-left: 94.5px;
+  margin-right: 94.5px;
+
+}
+
+.cart {
+  width: 1140PX;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 20px;
+  column-gap: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 150px;
+}
 
 
 
 
 
-.button-container{
+.button-container {
 
-    width:270px;
-    height: 50px;
-    background-color: #E95A08;
-    color:#FFFFFF;
-    border: none;
-    
+  width: 270px;
+  height: 50px;
+  background-color: #E95A08;
+  color: #FFFFFF;
+  border: none;
+
 }
 
 /* drop down */
@@ -151,11 +157,11 @@ body {
 
 .section-container {
   position: relative;
-  max-width: 1140px; 
+  max-width: 1140px;
   margin: 0px 150px;
   margin-top: 110px;
   background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
@@ -214,7 +220,7 @@ body {
 }
 
 
-.deal-container{
+.deal-container {
   text-align: center;
   margin-top: 120px;
 }
@@ -222,7 +228,7 @@ body {
 /* con-4 */
 
 
-    * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -262,7 +268,7 @@ body {
   left: 10%;
   transform: translateY(-50%);
   color: white;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 .card .overlay h2 {
@@ -279,15 +285,15 @@ body {
 }
 
 .bloom {
-  background-image: url('/assets/deal-ana.png'); 
+  background-image: url('/assets/deal-ana.png');
 }
 
 .ana {
-  background-image: url('/assets/deal-bloom.png'); 
+  background-image: url('/assets/deal-bloom.png');
 }
 
 .zabo {
-  background-image: url('/assets/deal-zabo.png'); 
+  background-image: url('/assets/deal-zabo.png');
   height: 100%;
 }
 
@@ -302,7 +308,7 @@ body {
 
 
 .hero {
-  background: url('/assets/news-letter-bg.png') no-repeat center center/cover;
+  background: url('assets/news-letter-bg.png') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   align-items: center;
@@ -412,10 +418,11 @@ footer {
   height: 28px;
 }
 
-.color-image{
-color: #FFFFFF;
+.color-image {
+  color: #FFFFFF;
 }
-.banner{
+
+.banner {
   margin-top: 120px;
   margin-bottom: 60px;
 }
@@ -427,6 +434,7 @@ color: #FFFFFF;
 
 
 @media (max-width: 576px) {
+
   /* ==== NAVIGATION ==== */
   .nav {
     flex-direction: column;
@@ -586,21 +594,22 @@ color: #FFFFFF;
 
 /* desktop device */
 @media (min-width: 992px) {
-  
+
   .nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 50px;
+    margin-right: 10px;
     width: 1140px;
   }
-  .nav-items{
+
+  .nav-items {
     width: 415px;
     display: flex;
     justify-content: center;
-    align-items: center ;
-    
+    align-items: center;
+
   }
 
   .nav a {
