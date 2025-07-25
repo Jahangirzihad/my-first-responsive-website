@@ -2,6 +2,7 @@
 
 
 
+
 /* nav-bar section */
 .nav{
     width: 1140px;
@@ -45,6 +46,9 @@
   text-decoration: none;
 }
 
+.cart{
+  margin-top: 49px;
+}
 /* banner section */
 .banner-title{
     width: 517px;
@@ -103,6 +107,7 @@
     text-align: center;
     justify-content: center;
     margin: auto 150px;
+    margin-bottom: 49px;
 }
 
 .card-title{
